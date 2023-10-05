@@ -1,0 +1,11 @@
+/* PROFILE */
+
+.profiles{
+    background-color: #25292c;
+    color: #fff;
+}
+.profile-selected{
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #007bff;;
+}
