@@ -50,7 +50,7 @@
 
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
+                        <i class="nav-icon fas fa-user-circle"></i>
                         <p>
                             Perfil
                             <i class="fas fa-angle-left right"></i>
@@ -59,13 +59,13 @@
                     <ul class="nav nav-treeview" style="display: none;">
                         <li class="nav-item">
                             <a href="{{ route('profile.index') }}" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="fas fa-check-square nav-icon"></i>
                                 <p>Selecionar</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('profile.create') }}" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="fas fa-plus nav-icon"></i>
                                 <p>Criar Novo</p>
                             </a>
                         </li>
@@ -75,7 +75,7 @@
                 @if ($profile != null)
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
+                        <i class="nav-icon fas fa-flag"></i>
                         <p>
                             Fases
                             <i class="fas fa-angle-left right"></i>
@@ -84,13 +84,13 @@
                     <ul class="nav nav-treeview" style="display: none;">
                         <li class="nav-item">
                             <a href="{{ route('phase.index') }}" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>Ver Fases</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('phase.create') }}" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="fas fa-plus nav-icon"></i>
                                 <p>Criar Nova</p>
                             </a>
                         </li>
@@ -99,7 +99,7 @@
 
                 <li class="nav-item">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-table"></i>
+                        <i class="nav-icon fas fa-pen"></i>
                         <p>
                             Tópicos
                             <i class="fas fa-angle-left right"></i>
@@ -108,13 +108,13 @@
                     <ul class="nav nav-treeview" style="display: none;">
                         <li class="nav-item">
                             <a href="{{ route('topic.index') }}" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="far fa-eye nav-icon"></i>
                                 <p>Ver Tópicos</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ route('topic.create') }}" class="nav-link">
-                                <i class="far fa-circle nav-icon"></i>
+                                <i class="fas fa-plus nav-icon"></i>
                                 <p>Criar Novo</p>
                             </a>
                         </li>

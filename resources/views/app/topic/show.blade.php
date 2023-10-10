@@ -16,6 +16,7 @@
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
                             <li class="breadcrumb-item"><a href="{{ route('app.home') }}">Home</a></li>
+                            <li class="breadcrumb-item"><a href="{{ route('topic.index') }}">Topicos</a>
                             <li class="breadcrumb-item active">Ver Tópico</li>
                         </ol>
                     </div><!-- /.col -->

@@ -119,7 +119,8 @@ class NoteController extends Controller
      */
     public function destroy(Note $note)
     {
-        //
+        $note->delete();
+        return redirect()->route('topic.show' , $note->topic->id);
     }
 
     public function printPdf(Note $note)
