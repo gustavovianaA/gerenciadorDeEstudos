@@ -13,25 +13,30 @@
 <body>
 
     <header>
-    <div class="container">
-        @if (Route::has('login'))
-        <div class="">
-            @auth
-            <a href="{{ url('/app/home') }}" class="">Home</a>
-            @else
-            <a href="{{ route('login') }}" class="">Log in</a>
+        <div class="container">
+            @if (Route::has('login'))
+            <div class="">
+                @auth
+                <a href="{{ url('/app/home') }}" class="">Home</a>
+                @else
+                <a href="{{ route('login') }}" class="">Log in</a>
 
-            @if (Route::has('register'))
-            <a href="{{ route('register') }}" class="">Register</a>
+                @if (Route::has('register'))
+                <a href="{{ route('register') }}" class="">Register</a>
+                @endif
+                @endauth
+            </div>
             @endif
-            @endauth
         </div>
-        @endif
-    </div>
     </header>
 
-    <section class="container">
-        <h1>Gerenciador de Estudos</h1>
+    <section class="container" style="height: 90vh">
+        <h1 class="mb-4">Gerenciador de Estudos</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{ asset('img/app/logo.png') }}">
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container">

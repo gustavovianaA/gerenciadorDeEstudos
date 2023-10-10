@@ -143,7 +143,7 @@
         <!-- /.sidebar-menu -->
         <hr>
         <div class="text-center">
-            <img style="width: 50px; height: auto" src="{{ asset('img/app/logo.png') }}" alt="Gerenciador de Estudos Logo" class="elevation-3 mb-2" style="opacity: .8">
+            <img style="width: 50px; height: auto" src="{{ asset('img/app/logo.png') }}" alt="Gerenciador de Estudos Logo" class=" mb-2" >
             <h3 class="text-white text-center">Gerenciador de Estudos</h3>
         </div>
         <hr>

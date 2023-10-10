@@ -25,8 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //$profile = (new ProfileService())->getProfile();
-
-        return view('app.home', ['profile' => $this->getProfile()]);
+        $profile = $this->getProfile();
+        //$profileComplete = Profile::with(['phases,topics,notes'])->where('id' , $profile->id);
+        return view('app.home', ['profile' => $profile]);
     }
 }
